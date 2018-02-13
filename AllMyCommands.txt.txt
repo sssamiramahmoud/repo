@@ -1,0 +1,25 @@
+
+electro@electro-PC MINGW64 ~/Desktop/New folder
+$ git init
+Initialized empty Git repository in C:/Users/electro/Desktop/New folder/.git/
+
+electro@electro-PC MINGW64 ~/Desktop/New folder (master)
+$ ls
+ 1.txt  'New Text Document.txt'  'New Text Document2.txt'
+
+electro@electro-PC MINGW64 ~/Desktop/New folder (master)
+$ git add  1.txt
+
+electro@electro-PC MINGW64 ~/Desktop/New folder (master)
+$ git commit -m 'update files'
+[master (root-commit) 879e45c] update files
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 1.txt
+
+electro@electro-PC MINGW64 ~/Desktop/New folder (master)
+$ ls
+ 1.txt                  'New Text Document.txt'
+ AllMyCommands.txt.txt  'New Text Document2.txt'
+
+electro@electro-PC MINGW64 ~/Desktop/New folder (master)
+$
